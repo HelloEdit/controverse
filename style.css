@@ -118,10 +118,6 @@ svg {
     fill: #fff;
 }
 
-img {
-    width: inherit;
-}
-
 nav {
     padding: 3rem;
 }
@@ -191,7 +187,11 @@ main {
 
 figure {
     margin-top: 2.5rem;
-    width: 100%;
+    width: auto;
+}
+
+figure figcaption {
+    text-align: center;
 }
 
 figure img {
