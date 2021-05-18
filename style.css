@@ -194,9 +194,26 @@ figure figcaption {
     text-align: center;
 }
 
+img {
+    max-width: 90vw;
+}
+
 figure img {
     border: 3px solid #fff;
-    filter: grayscale(100%);
+}
+
+.links-container {
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    background: #ffa372;
+    font-weight: bold;
+    color: #43658b;
+    padding: 15px;
 }
 
 #main .centered {
