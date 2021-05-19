@@ -202,6 +202,20 @@ figure img {
     border: 3px solid #fff;
 }
 
+blockquote.citation p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote.citation p::before {
+    content: '\201C';
+}
+
+blockquote.citation p::after {
+    content: '\201D';
+}
+
 .links-container {
     display: inline-flex;
     -ms-flex-align: center;
